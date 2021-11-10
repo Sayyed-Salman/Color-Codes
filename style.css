@@ -72,6 +72,12 @@ body {
     border: black solid 3px;
     box-shadow: 3px 5px 4px 3px black;
   }
+
+  #color-name {
+    position: absolute;
+    top: 25%;
+  }
+
   #mid-box {
     position: absolute;
     top: 30%;
