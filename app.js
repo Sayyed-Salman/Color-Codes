@@ -7,6 +7,7 @@ function changeColor(){
     let color = generateRandomColor();
     document.body.style.backgroundColor = color;
     midBox.style.backgroundColor = color;
+    colorBtn.style.backgroundColor = color;
     cname.innerHTML = color;
 }
 

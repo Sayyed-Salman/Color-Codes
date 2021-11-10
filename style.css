@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Open Sans";
 }
 
 .block-card {
@@ -27,8 +28,9 @@
   left: 50%;
   transform: translate(-50%);
   display: inline-block;
-  height: 40px;
-  width: 40px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
 }
 
 #color-name {
@@ -39,9 +41,10 @@
   font-size: large;
   font-weight: 700;
   background: linear-gradient(to bottom right, blue, white);
+  background: blue;
   font-family: "Open Sans", sans-serif;
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%);
   padding: 10px 24px;
@@ -53,9 +56,9 @@
   cursor: pointer;
 }
 
-.press:hover {
+/* .press:hover {
   background: linear-gradient(to top right, blue, white);
-}
+} */
 
 .press:active {
   background-color: white;
@@ -74,13 +77,17 @@ body {
   }
 
   #color-name {
+    display: block;
     position: absolute;
-    top: 25%;
+    top: 20%;
+    margin: auto;
+    left: 50%;
+    transform: translate(-50%);
   }
 
   #mid-box {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%);
     display: inline-block;
@@ -90,6 +97,7 @@ body {
   }
   .press {
     position: absolute;
-    top: 60%;
+    top: 70%;
+    outline: none !important;
   }
 }
