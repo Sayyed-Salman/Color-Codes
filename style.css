@@ -6,13 +6,15 @@
 }
 
 .block-card {
+  font-size: large;
+  font-weight: 900;
   position: relative;
   font-family: "Open Sans", sans-serif;
   margin: auto;
   margin-top: 5%;
   width: 33.3%;
   border-radius: 20px;
-  height: 20rem;
+  height: 25rem;
   text-align: center;
   background-color: white;
   border: black solid 3px;
@@ -29,7 +31,15 @@
   width: 40px;
 }
 
+#color-name {
+  margin: 1rem;
+}
+.head {
+  margin-top: 3px;
+}
 .press {
+  font-size: large;
+  font-weight: 700;
   background: linear-gradient(to bottom right, blue, white);
   font-family: "Open Sans", sans-serif;
   position: absolute;
@@ -60,18 +70,19 @@ body {
 @media (max-width: 500px) {
   .block-card {
     width: 60%;
-    margin-top: 50px;
+    margin-top: 150px;
     border: black solid 3px;
     box-shadow: 3px 5px 4px 3px black;
   }
   #mid-box {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%);
     display: inline-block;
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
   }
   .press {
     position: absolute;
